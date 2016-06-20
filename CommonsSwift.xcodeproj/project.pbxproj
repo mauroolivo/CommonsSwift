@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34921E461D1817E100C46902 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 34921E451D1817E100C46902 /* README.md */; };
+		34921E491D18192700C46902 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921E471D18192700C46902 /* CollectionViewController.swift */; };
+		34921E4A1D18192700C46902 /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34921E481D18192700C46902 /* CollectionViewController.xib */; };
+		34921E4D1D181A2800C46902 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921E4B1D181A2800C46902 /* CustomCell.swift */; };
+		34921E4E1D181A2800C46902 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34921E4C1D181A2800C46902 /* CustomCell.xib */; };
+		34921E501D181ADE00C46902 /* git.png in Resources */ = {isa = PBXBuildFile; fileRef = 34921E4F1D181ADE00C46902 /* git.png */; };
 		34B543A31D016D9200124F59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B543A21D016D9200124F59 /* AppDelegate.swift */; };
 		34B543AA1D016D9200124F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B543A91D016D9200124F59 /* Assets.xcassets */; };
 		34B543AD1D016D9200124F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B543AB1D016D9200124F59 /* LaunchScreen.storyboard */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34921E451D1817E100C46902 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		34921E471D18192700C46902 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		34921E481D18192700C46902 /* CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
+		34921E4B1D181A2800C46902 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		34921E4C1D181A2800C46902 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		34921E4F1D181ADE00C46902 /* git.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = git.png; sourceTree = "<group>"; };
 		34B5439F1D016D9200124F59 /* CommonsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B543A21D016D9200124F59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34B543A91D016D9200124F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +50,7 @@
 		34B543961D016D9200124F59 = {
 			isa = PBXGroup;
 			children = (
+				34921E451D1817E100C46902 /* README.md */,
 				34B543A11D016D9200124F59 /* CommonsSwift */,
 				34B543A01D016D9200124F59 /* Products */,
 			);
@@ -54,12 +67,17 @@
 		34B543A11D016D9200124F59 /* CommonsSwift */ = {
 			isa = PBXGroup;
 			children = (
+				34921E4F1D181ADE00C46902 /* git.png */,
 				34E4EFF71D01709200D55DF2 /* HomeViewController.swift */,
 				34E4EFF81D01709200D55DF2 /* HomeViewController.xib */,
 				34B543A21D016D9200124F59 /* AppDelegate.swift */,
 				34B543A91D016D9200124F59 /* Assets.xcassets */,
 				34B543AB1D016D9200124F59 /* LaunchScreen.storyboard */,
 				34B543AE1D016D9200124F59 /* Info.plist */,
+				34921E471D18192700C46902 /* CollectionViewController.swift */,
+				34921E481D18192700C46902 /* CollectionViewController.xib */,
+				34921E4B1D181A2800C46902 /* CustomCell.swift */,
+				34921E4C1D181A2800C46902 /* CustomCell.xib */,
 			);
 			path = CommonsSwift;
 			sourceTree = "<group>";
@@ -122,6 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34921E501D181ADE00C46902 /* git.png in Resources */,
+				34921E4E1D181A2800C46902 /* CustomCell.xib in Resources */,
+				34921E4A1D18192700C46902 /* CollectionViewController.xib in Resources */,
 				34B543AD1D016D9200124F59 /* LaunchScreen.storyboard in Resources */,
 				34B543AA1D016D9200124F59 /* Assets.xcassets in Resources */,
 				34E4EFFA1D01709200D55DF2 /* HomeViewController.xib in Resources */,
@@ -135,6 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34921E491D18192700C46902 /* CollectionViewController.swift in Sources */,
+				34921E461D1817E100C46902 /* README.md in Sources */,
+				34921E4D1D181A2800C46902 /* CustomCell.swift in Sources */,
 				34B543A31D016D9200124F59 /* AppDelegate.swift in Sources */,
 				34E4EFF91D01709200D55DF2 /* HomeViewController.swift in Sources */,
 			);
