@@ -25,7 +25,7 @@ class HomeViewController: UIViewController {
     
 
     @IBAction func openCollectionView(sender: AnyObject) {
-        self.navigationController?.pushViewController(CollectionViewController(), animated: true)
+        self.navigationController?.pushViewController(CollectionViewController(nibName: "CollectionViewController", bundle: nil), animated: true)
     }
 
 }

@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         self.window!.makeKeyAndVisible()
         
-        self.navigationViewController = UINavigationController(rootViewController: HomeViewController())
+        self.navigationViewController = UINavigationController(rootViewController: HomeViewController(nibName: "HomeViewController", bundle: nil))
         self.window!.rootViewController = self.navigationViewController
         
         return true
