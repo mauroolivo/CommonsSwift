@@ -28,4 +28,8 @@ class HomeViewController: UIViewController {
         self.navigationController?.pushViewController(CollectionViewController(nibName: "CollectionViewController", bundle: nil), animated: true)
     }
 
+    @IBAction func openTableView(sender: AnyObject) {
+                self.navigationController?.pushViewController(TableViewController(nibName: "TableViewController", bundle: nil), animated: true)
+        
+    }
 }

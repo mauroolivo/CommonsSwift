@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3464568A1D2167480026C40D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346456881D2167480026C40D /* TableViewController.swift */; };
+		3464568B1D2167480026C40D /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 346456891D2167480026C40D /* TableViewController.xib */; };
+		3464568E1D2167AD0026C40D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3464568C1D2167AD0026C40D /* TableViewCell.swift */; };
+		3464568F1D2167AD0026C40D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3464568D1D2167AD0026C40D /* TableViewCell.xib */; };
 		34921E461D1817E100C46902 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 34921E451D1817E100C46902 /* README.md */; };
 		34921E491D18192700C46902 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921E471D18192700C46902 /* CollectionViewController.swift */; };
 		34921E4A1D18192700C46902 /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34921E481D18192700C46902 /* CollectionViewController.xib */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		346456881D2167480026C40D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		346456891D2167480026C40D /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		3464568C1D2167AD0026C40D /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3464568D1D2167AD0026C40D /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		34921E451D1817E100C46902 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		34921E471D18192700C46902 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		34921E481D18192700C46902 /* CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
@@ -74,10 +82,14 @@
 				34B543A91D016D9200124F59 /* Assets.xcassets */,
 				34B543AB1D016D9200124F59 /* LaunchScreen.storyboard */,
 				34B543AE1D016D9200124F59 /* Info.plist */,
+				346456881D2167480026C40D /* TableViewController.swift */,
+				346456891D2167480026C40D /* TableViewController.xib */,
 				34921E471D18192700C46902 /* CollectionViewController.swift */,
 				34921E481D18192700C46902 /* CollectionViewController.xib */,
 				34921E4B1D181A2800C46902 /* CustomCell.swift */,
 				34921E4C1D181A2800C46902 /* CustomCell.xib */,
+				3464568C1D2167AD0026C40D /* TableViewCell.swift */,
+				3464568D1D2167AD0026C40D /* TableViewCell.xib */,
 			);
 			path = CommonsSwift;
 			sourceTree = "<group>";
@@ -145,7 +157,9 @@
 				34921E4A1D18192700C46902 /* CollectionViewController.xib in Resources */,
 				34B543AD1D016D9200124F59 /* LaunchScreen.storyboard in Resources */,
 				34B543AA1D016D9200124F59 /* Assets.xcassets in Resources */,
+				3464568F1D2167AD0026C40D /* TableViewCell.xib in Resources */,
 				34E4EFFA1D01709200D55DF2 /* HomeViewController.xib in Resources */,
+				3464568B1D2167480026C40D /* TableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,9 +171,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				34921E491D18192700C46902 /* CollectionViewController.swift in Sources */,
+				3464568A1D2167480026C40D /* TableViewController.swift in Sources */,
 				34921E461D1817E100C46902 /* README.md in Sources */,
 				34921E4D1D181A2800C46902 /* CustomCell.swift in Sources */,
 				34B543A31D016D9200124F59 /* AppDelegate.swift in Sources */,
+				3464568E1D2167AD0026C40D /* TableViewCell.swift in Sources */,
 				34E4EFF91D01709200D55DF2 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

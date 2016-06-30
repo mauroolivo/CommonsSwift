@@ -22,11 +22,20 @@
                         <action selector="openCollectionView:" destination="-1" eventType="touchUpInside" id="3h6-Ma-s5B"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g0b-m8-JRc">
+                    <rect key="frame" x="208" y="167" width="185" height="30"/>
+                    <state key="normal" title="TableView with custom cell"/>
+                    <connections>
+                        <action selector="openTableView:" destination="-1" eventType="touchUpInside" id="iHy-Zm-PsX"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="g0b-m8-JRc" firstAttribute="top" secondItem="pRf-Iw-juo" secondAttribute="bottom" constant="22" id="Itp-DW-CYy"/>
                 <constraint firstItem="pRf-Iw-juo" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Wvj-Bz-Whg"/>
                 <constraint firstItem="pRf-Iw-juo" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="115" id="bGj-2N-EGy"/>
+                <constraint firstItem="g0b-m8-JRc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="yZ2-P8-x9a"/>
             </constraints>
         </view>
     </objects>
